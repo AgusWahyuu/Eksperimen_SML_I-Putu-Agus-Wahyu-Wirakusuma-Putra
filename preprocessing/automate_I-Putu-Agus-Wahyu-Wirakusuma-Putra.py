@@ -27,7 +27,7 @@ def save_data(df, output_path):
     print(f"Data saved to {output_path}")
 
 if __name__ == "__main__":
-    input_file = "../diabetes_data.csv" 
+    input_file = "diabetes_data.csv" 
     output_file = "preprocessing/diabetes_data_preprocessed.csv"
     
     if not os.path.exists('preprocessing'):
